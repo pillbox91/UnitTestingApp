@@ -19,6 +19,8 @@ class PersonTests: XCTestCase {
         imageData = image?.pngData()
     }
     
+    
+    
     override func tearDown() {
         image = nil
         imageData = nil
